@@ -11,5 +11,8 @@
     "url": "https://github.com/anderson-mntn/node_with_react"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
