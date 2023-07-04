@@ -23,7 +23,7 @@ function App() {
 
         <div>
           {videos.map((id, index) => {
-            return (<a key={index} href={`https://youtube.com/watch?v=${id}`}>
+            return (<a key={index} href={`https://youtube.com/watch?v=${id}`} target="__blank">
             <img src={`https://img.youtube.com/vi/${id}/0.jpg`} alt={"video alt n." + index}></img>
             </a>)
           })}
