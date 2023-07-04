@@ -17,14 +17,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edite <code>src/App.js</code> and save to reload.
+          Editeiout App.js.
         </p>
         
 
         <div>
           {videos.map((id, index) => {
             return (<a key={index} href={`https://youtube.com/watch?v=${id}`} target="__blank">
-            <img src={`https://img.youtube.com/vi/${id}/0.jpg`} alt={"video alt n." + index}></img>
+            <img src={`https://img.youtube.com/vi/${id}/0.jpg`} alt={index}></img>
             </a>)
           })}
         </div>
